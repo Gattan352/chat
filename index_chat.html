@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат підтримки</title>
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+
+<body>
+<input type="checkbox" id="chat-toggle" hidden>
+<label for="chat-toggle" class="chat-button">✖</label>
+
+<div class="chat-popup">
+  <div class="chat-header">
+    <h2>Чат підтримки</h2>
+    <p>Допомога online</p>
+  </div>
+
+  <div class="chat-main" id="chat-scroll">
+
+    <div class="chat-date">13 квітня 2025</div>
+
+    <div class="message"><img src="img/Flag_of_Ukraine.svg" alt="avatar" class="avatar">
+        Привіт! Як можемо допомогти?</div>
+    <div class="message user">Мені потрібна допомога </div>
+
+    <div class="message">Оператор приєднався до чату 👋</div>
+    <div class="message">Чим можемо допомогти?</div>
+
+    <div class="scroll-wrapper">
+      <button class="scroll">⇓</button>
+      <div class="unread-badge">3</div>
+    </div>
+  </div>
+
+  <div class="chat-footer">
+    <label for="file-input" class="attach-label">📎</label>
+    <input type="file" id="file-input" hidden>
+
+    <input type="text" placeholder="Введіть повідомлення...">
+  </div>
+</div>
+</body>
+</html>
